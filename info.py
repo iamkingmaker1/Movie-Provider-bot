@@ -29,8 +29,8 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/734170f40b8
 CODE = (environ.get('CODE', 'https://telegra.ph/file/72f425007b22d28bd935e.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'api.shareus.io'))
-STREAM_API = (environ.get('STREAM_API', 'PUIAQBIFrydvLhIzAOeGV8yZppu2'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'modijiurl.com'))
+STREAM_API = (environ.get('STREAM_API', 'edf836de1a44f5e3d13895f00d64ce32482bd7f7'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/Ultroid_Official/18'))
 
 # Admins, Channels & Users
@@ -52,8 +52,8 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False)) # True if you want n
 # MongoDB information 
 # https://youtu.be/qFB0cFqiyOM?si=QGuFSZ7qhxl4VTrA
 
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Cluster0:Cluster0@cluster0.c07xkuf.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "MovizTube")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://URL:URL@cluster0.5ihlslt.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "ravikumar1cn")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Verify/token system
@@ -62,8 +62,8 @@ VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( F
 HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/Ultroid_Official/18') # How to open tutorial link for verification
 
 # Others
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'api.shareus.io')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'PUIAQBIFrydvLhIzAOeGV8yZppu2')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'modijiurl.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'edf836de1a44f5e3d13895f00d64ce32482bd7f7')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))  # else--> True
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
@@ -119,7 +119,7 @@ WORKERS = int(environ.get('WORKERS', '4'))
 SESSION_NAME = str(environ.get('SESSION_NAME', 'LazyBot'))
 MULTI_CLIENT = False
 name = str(environ.get('name', 'LazyPrincess'))
-PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
+PING_INTERVAL = int(environ.get("PING_INTERVAL", "50"))  # 1 minutes
 if 'DYNO' in environ:
     ON_HEROKU = True
     APP_NAME = str(getenv('APP_NAME'))
@@ -136,7 +136,7 @@ OWNER_USERNAME = "LazyDeveloper"
 
 
 # add premium logs channel id
-PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002062925443'))
+PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', ' '))
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
