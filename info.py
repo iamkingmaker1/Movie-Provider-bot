@@ -29,7 +29,7 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/734170f40b8
 CODE = (environ.get('CODE', 'https://telegra.ph/file/72f425007b22d28bd935e.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'offerlinks.in'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'offerlinks.i'))
 STREAM_API = (environ.get('STREAM_API', '9f442a27f749d8d58a79cbc0a1a346d109e5ba22'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/How_To_Open_Links_bypass'))
 
