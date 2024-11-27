@@ -1,4 +1,4 @@
-# y need to change "6695586027" or "5466885993" user_id with yr user_id (thx ki jaruRat.. nhi he !!! )
+# y need to change "6695586027" or "565220764" user_id with yr user_id (thx ki jaruRat.. nhi he !!! )
 
 # SPECIAL THANKS TO @ultroidxTeam FOR MODIFYING and 🤔 neverMind...!
 # SPECIAL THANKS TO [Rishikesh Sharma] @Rk_botowner FOR THESE AMAZING CODES
